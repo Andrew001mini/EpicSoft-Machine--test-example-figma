@@ -1,0 +1,551 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    height: 100px;
+    width: 100%;
+}
+
+.headerLogo {
+    width: 87.7px;
+    height: 32px;
+}
+
+.navItems {
+    display: flex;
+    gap: 20px;
+}
+
+.navItems p {
+    cursor: pointer;
+}
+
+.loginBtn, .RegisterBtn1 {
+    width: 130px;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.loginBtn {
+    background-color: white;
+    color: #18A0FB;
+    border: 1px solid #18A0FB;
+}
+
+.RegisterBtn1 {
+    background-color: #18A0FB;
+    color: white;
+    border: none;
+    margin-left: 10px;
+}
+
+/* Hero Image */
+.heroImageContainer {
+    width: 100%;
+    height: 600px;
+}
+
+.heroImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Body Description */
+.headeOfTheBodyDescription {
+    padding: 100px;
+}
+
+.bodyHeadDescription {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -0.015em;
+    width: 750px;
+    margin-bottom: 40px;
+}
+
+.divItemsHeader {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px 60px;
+}
+
+.divItems {
+    width: calc(50% - 50px);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.divItemsDescrpition {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.015em;
+}
+
+.divItemsParagraph {
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.015em;
+}
+
+.divItems .RegisterBtn1 {
+    width: 150px;
+}
+
+/* Social Media Section */
+.socialMediaHeader {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.socialMediaDescription1 {
+    font-size: 36px;
+    line-height: 50px;
+    letter-spacing: -0.015em;
+    width: 100%;
+    text-align: center;
+}
+
+.socailMediaHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
+
+.socialMediaDescription {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.socialMediaDescription > div {
+    max-width: 600px;
+}
+
+.divItemsParagraph1 {
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.015em;
+}
+
+.socialMediaImageContainer {
+    width: 50%;
+}
+
+.socialMediaImage {
+    width: 100%;
+    height: auto;
+}
+
+/* Card Section */
+.cardHeder {
+    padding: 100px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+}
+
+.card {
+    width: 429px;
+    border: 1px solid #CCCCCC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardImageContainer {
+    width: 100%;
+    height: 275px;
+}
+
+.cardImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cardTitle {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.015em;
+    padding: 20px;
+    text-align: center;
+}
+
+.cardDescription {
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.015em;
+    padding: 0 20px 20px 20px;
+    text-align: center;
+}
+
+/* Form Section */
+.formValidationHeader {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.form-container {
+    background-color: white;
+    padding: 60px 20px 40px 20px;
+    border: 1px solid #000000CC;
+    max-width: 622px;
+    width: 100%;
+}
+
+.form-container h2 {
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.015em;
+    margin-bottom: 20px;
+}
+
+#userForm {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+#userForm input {
+    width: calc(50% - 12.5px);
+    padding: 10px;
+    border: 1px solid #C4C4C4;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    color: #C4C4C4CC;
+}
+
+#userForm input#password {
+    width: 100%;
+}
+
+.registerButton {
+    width: 130px;
+    height: 40px;
+    background-color: #18A0FB;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.registerButton:hover {
+    background-color: #007BFF;
+}
+
+/* Footer */
+footer {
+    background-color: #000000CC;
+    padding: 40px;
+    color: white;
+}
+
+.footerHeader {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.footerHeader > div {
+    flex: 1;
+}
+
+.contactThings {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    margin-bottom: 20px;
+}
+
+.mobileAppDescription {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    color: #FFFFFFCC;
+}
+
+.footerBtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footerBtn .loginBtn, .footerBtn .RegisterBtn1 {
+    width: 130px;
+}
+
+.blackLine {
+    border-top: 1px solid #FFFFFF80;
+    margin-bottom: 40px;
+}
+
+.iconsHeader {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerdes {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    color: #FFFFFFCC;
+}
+
+.iconhead {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.iconImage {
+    width: 44px;
+    height: 44px;
+    background-color: #4B4B4B;
+    border-radius: 50%;
+    object-fit: contain;
+}
+.footing{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Responsive Design */
+
+/* Tablets */
+@media (max-width: 1024px) {
+    .headeOfTheBodyDescription {
+        padding: 50px;
+    }
+
+    .divItemsHeader {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .divItems {
+        width: 100%;
+    }
+
+    .socailMediaHeader {
+        flex-direction: column;
+    }
+
+    .socialMediaImageContainer {
+        width: 100%;
+    }
+
+    .socialMediaDescription {
+        align-items: center;
+    }
+
+    .cardContainer {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .formValidationHeader {
+        padding: 50px;
+    }
+
+    .form-container {
+        padding: 40px 20px;
+    }
+
+    #userForm input {
+        width: 100%;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+    .footerHeader {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .iconsHeader {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .navItems {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .loginBtn, .RegisterBtn1 {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .heroImageContainer {
+        height: 400px;
+    }
+
+    .headeOfTheBodyDescription {
+        padding: 20px;
+    }
+
+    .bodyHeadDescription {
+        font-size: 36px;
+        line-height: 50px;
+        width: 100%;
+    }
+
+    .socialMediaDescription1 {
+        font-size: 24px;
+        line-height: 36px;
+        width: 100%;
+    }
+
+    .socialMediaDescription > div {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .divItemsDescrpition, .divItemsParagraph1 {
+        text-align: center;
+    }
+
+    .cardHeder {
+        padding: 20px;
+    }
+
+    .formValidationHeader {
+        padding: 20px;
+    }
+
+    .form-container {
+        padding: 20px;
+    }
+
+    .registerButton {
+        align-self: center;
+        margin-right: 0;
+    }
+
+    .footerHeader > div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footerBtn {
+        align-items: center;
+    }
+
+    .iconsHeader {
+        padding: 20px;
+    }
+}
+
+/* Small Mobile Devices */
+@media (max-width: 480px) {
+    .navItems p {
+        font-size: 14px;
+    }
+
+    .bodyHeadDescription {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .divItemsDescrpition {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .divItemsParagraph, .divItemsParagraph1 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .socialMediaDescription1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .cardTitle {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .cardDescription {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .footerdes {
+        font-size: 14px;
+    }
+
+    .iconImage {
+        width: 36px;
+        height: 36px;
+    }
+}    
